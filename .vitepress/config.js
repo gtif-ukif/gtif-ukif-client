@@ -3,7 +3,7 @@ import baseConfig from "@eox/pages-theme-eox/config";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  extends: baseConfig('GTIF-UKIF'),
+  extends: baseConfig('eox'),
   vue: {
     template: {
       compilerOptions: {
