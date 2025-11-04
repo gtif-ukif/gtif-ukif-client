@@ -52,6 +52,18 @@ export default {
           name: "EodashMap",
           properties: {
             enableCompare: true,
+            zoomToExtent: true,
+            btns: {
+              enableExportMap: true,
+              enableCompareIndicators: true,
+              enableSearch: false,
+              enableBackToPOIs: true,
+            },
+            btnsPosition: {
+              x: "12/8/9",
+              y: 1,
+              gap: 16
+            },
           },
         },
       },
@@ -94,7 +106,7 @@ export default {
                 subTitleProperty: "subtitle",
                 imageProperty: "thumbnail",
                 style: {
-                  "--select-filter-max-items": 8
+                  "--select-filter-max-items": 5
                 },
               },
             },
@@ -156,21 +168,6 @@ export default {
           },
         },
         {
-          defineWidget: (selected) => {
-            return selected
-              ? {
-                  id: "Buttons",
-                  layout: { x: "7/7/8", y: 0, w: 1, h: 3 },
-                  title: "Buttons",
-                  type: "internal",
-                  widget: {
-                    name: "EodashMapBtns",
-                  },
-                }
-              : null;
-          },
-        },
-        {
           defineWidget: (selectedSTAC) =>
             window.eodashStore.actions.includesProcess(selectedSTAC)
               ? {
@@ -203,12 +200,26 @@ export default {
         },
       },
       background: {
-        id: "background-map",
+        id: "background-map-compare",
         type: "internal",
         widget: {
           name: "EodashMap",
           properties: {
             enableCompare: true,
+            zoomToExtent: true,
+            btns: {
+              enableExportMap: false,
+              enableCompareIndicators: {
+                fallbackTemplate: "expert",
+              },
+              enableBackToPOIs: false,
+              enableSearch: false,
+            },
+            btnsPosition: {
+              x: "12/9/10",
+              y: 1,
+              gap: 16
+            },
           },
         },
       },
@@ -300,7 +311,7 @@ export default {
                 subTitleProperty: "subtitle",
                 imageProperty: "thumbnail",
                 style: {
-                  "--select-filter-max-items": 8
+                  "--select-filter-max-items": 5
                 },
                 filtersTitle: "Select an indicator to compare",
                 resultsTitle: "",
@@ -327,26 +338,6 @@ export default {
             properties: {
               map: "second",
             },
-          },
-        },
-        {
-          defineWidget: (selected) => {
-            return selected
-              ? {
-                  id: "Buttons",
-                  layout: { x: "8/8/9", y: 0, w: 1, h: 3 },
-                  title: "Buttons",
-                  type: "internal",
-                  widget: {
-                    name: "EodashMapBtns",
-                    properties: {
-                      compareIndicators: {
-                        fallbackTemplate: "expert",
-                      },
-                    },
-                  },
-                }
-              : null;
           },
         },
         {

@@ -4,11 +4,13 @@ layout: home
 
 hero:
   name: "GTIF UKIF DASHBOARD"
-  tagline: "<img src='./assets/ESA_Logo.png' class='center bottom-margin large-margin' style='height: 40px' />TODO tagline"
-  text: "GTIF UKIF DASHBOARD"
+  tagline: "Green Transition Information Factory Kickstarter (UK-Ireland-France demonstrator) <img style='height: 80px' src='./assets/ESA_logo_2020_Deep.png'></img>"
+  text: ""
 ---
 
-Placeholder text
+Dashboard integration demonstrator for capabilities being developed in the GTIF UKIF activity.
+
+Be advised this is a in development deployment and breaking changes are to be expected.
 
 <style>
   /* Making sure hero image is not darkened */
