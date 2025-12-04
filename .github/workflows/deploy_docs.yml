@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-22.04
     env:
       EODASH_access_token: ${{ secrets.EODASH_ACCESS_TOKEN }}
+      EODASH_OPENCAGE: ${{ secrets.EODASH_OPENCAGE }}
     permissions:
       contents: write
       pages: write

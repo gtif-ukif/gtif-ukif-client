@@ -20,6 +20,7 @@ jobs:
   deploy-preview:
     env:
       EODASH_access_token: ${{ secrets.EODASH_ACCESS_TOKEN }}
+      EODASH_OPENCAGE: ${{ secrets.EODASH_OPENCAGE }}
     runs-on: ubuntu-22.04
     permissions:
       contents: write
