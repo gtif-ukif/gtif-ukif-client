@@ -58,6 +58,9 @@ export default {
               enableCompareIndicators: true,
               enableSearch: true,
               enableBackToPOIs: true,
+              searchParams: {
+                countrycode: "gb,ie,fr",
+              },
             },
             btnsPosition: {
               x: "12/8/9",
@@ -214,6 +217,9 @@ export default {
               },
               enableBackToPOIs: false,
               enableSearch: true,
+              searchParams: {
+                countrycode: "gb,ie,fr",
+              },
             },
             btnsPosition: {
               x: "12/9/10",
