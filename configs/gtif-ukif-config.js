@@ -64,8 +64,8 @@ export default {
             },
             btnsPosition: {
               x: "12/8/9",
-              y: 2,
-              gap: 16
+              y: 1,
+              gap: 32
             },
           },
         },
@@ -223,8 +223,8 @@ export default {
             },
             btnsPosition: {
               x: "12/9/10",
-              y: 2,
-              gap: 16
+              y: 1,
+              gap: 32
             },
           },
         },
