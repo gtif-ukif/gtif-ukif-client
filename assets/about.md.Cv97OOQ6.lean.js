@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as a,af as n}from"./chunks/framework.BgWoI_Oo.js";const p=JSON.parse('{"title":"About","description":"","frontmatter":{},"headers":[],"relativePath":"about.md","filePath":"about.md"}'),r={name:"about.md"};function i(s,t,c,l,d,h){return a(),o("div",null,[...t[0]||(t[0]=[n("",5)])])}const u=e(r,[["render",i]]);export{p as __pageData,u as default};
