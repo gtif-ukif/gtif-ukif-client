@@ -5,9 +5,10 @@ layout: false
 <script setup>
   import { withBase } from 'vitepress';
   import VPNav from 'vitepress/dist/client/theme-default/components/VPNav.vue';
+  const cacheBuster = `?t=${new Date().getTime()}`; // Add a timestamp for cache busting
 </script>
 <VPNav />
-<eo-dash  :config="withBase('/configs/gtif-ukif-config.js')"/>
+<eo-dash  :config="withBase(`/configs/gtif-ukif-config.js${cacheBuster}`)"/>
 
 <style scoped>
   eo-dash {
