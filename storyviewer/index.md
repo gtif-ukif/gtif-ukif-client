@@ -1,9 +1,6 @@
 ---
-layout: home
-hero:
-  name: "GTIF UKIF"
-  tagline: "TODO"
-  text: "TODO"
+layout: page
+footer: false
 ---
 <script client-only>
   if(window && !customElements.get('eox-itemfilter')) import("@eox/itemfilter");
