@@ -4,19 +4,19 @@ footer: false
 ---
 ## Welcome to the GTIF landing page for the UK, Ireland and France
 
-<div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+<div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; align-items: center;">
   <figure style="padding: 1rem;">
-    <a target="_blank" href="https://www.ucl.ac.uk/"><img width="200px"  src="/assets/ucl-logo.webp"></a>
+    <a target="_blank" href="https://www.ucl.ac.uk/"><img width="150px" style="height:80px" src="/assets/ucl-logo.webp"></a>
   </figure>
   <figure style="padding: 1rem;">
-  <a target="_blank" href="https://earthdaily.com"><img width="200px"  src="/assets/EDA-logo.png"></a>
+  <a target="_blank" href="https://earthdaily.com"><img width="170px" style="height:70px" src="/assets/EDA-logo.png"></a>
   </figure>
   <figure style="padding: 1rem;">
-    <a target="_blank" href="https://compass.ie/"><img width="200px"  src="/assets/compass-informatics-logo.png"></a>
+    <a target="_blank" href="https://compass.ie/"><img width="220px" style="height:40px" src="/assets/compass-informatics-logo.png"></a>
   </figure>
 
   <figure style="padding: 1rem;">
-    <a target="_blank" href="https://www.saiil.co.uk/"><img width="200px"src="/assets/surrey-ai-logo.png"></a>
+    <a target="_blank" href="https://www.saiil.co.uk/"><img width="220px" style="height:60px" src="/assets/surrey-ai-logo.png"></a>
   </figure>
 </div>
 
@@ -25,7 +25,11 @@ This GTIF kickstarter is a demonstration project funded by the European Space Ag
 
 The stakeholders of such a webGIS include  urban planners to identify temperature hot-spots and sources of atmospheric pollution (Particulate Matter of 2.5µm or smaller, PM2.5), green transition planning for large solar rural farms avoiding encroachment into areas of environmental concern both for local, regional and national planning for landowners (e.g. farmers), NGO’s and local citizens and similar groups for the long-term (1-3 month) prediction of drought in croplands.
 
-Finally, large-scale natural and unplanned emissions of methane are also mapped worldwide. This project is part of the ESA “Green Transition Information Factories” (GTIF) initiative [https://gtif.esa.int/](https://gtif.esa.int/).
+Finally, large-scale natural and unplanned emissions of methane are also mapped worldwide.
+
+This project is part of the ESA “Green Transition Information Factories” (GTIF) initiative [https://gtif.esa.int/](https://gtif.esa.int/).
+
+Other ongoing related GTIF dashboards are [GTIF Baltic]("https://gtif-baltic.info/), [GTIF Cerulean](https://cif.eox.at) and [GTIF Austria](https://gtif-austria.info).
 
 The intention is to use Earth Observation (EO) data, geospatial and digital platform technologies, and advanced analytics to generate actionable knowledge and decision support for climate change impact reduction and adaptation.
 
