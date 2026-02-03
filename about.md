@@ -1,3 +1,7 @@
+---
+layout: page
+footer: false
+---
 # About 
 
 
