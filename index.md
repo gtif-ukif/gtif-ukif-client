@@ -2,7 +2,7 @@
 layout: page
 footer: false
 ---
-## Welcome to the GTIF landing-page for the UK, Ireland and France
+## Welcome to the GTIF landing page for the UK, Ireland and France
 
 <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
   <figure style="padding: 1rem;">
