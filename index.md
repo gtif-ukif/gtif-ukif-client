@@ -6,17 +6,17 @@ footer: false
 
 <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
   <figure style="padding: 1rem;">
-    <img width="200px"  src="/assets/ucl-logo.webp">
+    <a target="_blank" href="https://www.ucl.ac.uk/"><img width="200px"  src="/assets/ucl-logo.webp"></a>
   </figure>
   <figure style="padding: 1rem;">
-    <img width="200px" src="/assets/EDA-logo.png">
+  <a target="_blank" href="https://earthdaily.com"><img width="200px"  src="/assets/EDA-logo.png"></a>
   </figure>
   <figure style="padding: 1rem;">
-    <img width="200px" src="/assets/compass-informatics-logo.png">
+    <a target="_blank" href="https://compass.ie/"><img width="200px"  src="/assets/compass-informatics-logo.png"></a>
   </figure>
 
   <figure style="padding: 1rem;">
-    <img width="200px" src="/assets/surrey-ai-logo.png">
+    <a target="_blank" href="https://www.saiil.co.uk/"><img width="200px"src="/assets/surrey-ai-logo.png"></a>
   </figure>
 </div>
 
