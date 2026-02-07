@@ -9,4 +9,4 @@ layout: false
 
 
 <NavBar></NavBar>
-<eo-dash style="height:calc(100dvh - 60px);display:block;" :config="withBase(`/configs/gtif-ukif-config.js${cacheBuster}`)"/>
+<eo-dash style="display: block; top: var(--vp-nav-height); height: calc(100dvh - var(--vp-nav-height)) !important;" :config="withBase(`/configs/gtif-ukif-config.js${cacheBuster}`)"/>
