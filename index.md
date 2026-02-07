@@ -29,7 +29,7 @@ Finally, large-scale natural and unplanned emissions of methane are also mapped 
 
 This project is part of the ESA “Green Transition Information Factories” (GTIF) initiative [https://gtif.esa.int/](https://gtif.esa.int/).
 
-Other ongoing related GTIF dashboards are [GTIF Baltic]("https://gtif-baltic.info/), [GTIF Cerulean](https://cif.eox.at) and [GTIF Austria](https://gtif-austria.info).
+Other ongoing related GTIF dashboards are [GTIF Baltic](https://gtif-baltic.info), [GTIF Cerulean](https://cif.eox.at) and [GTIF Austria](https://gtif-austria.info).
 
 The intention is to use Earth Observation (EO) data, geospatial and digital platform technologies, and advanced analytics to generate actionable knowledge and decision support for climate change impact reduction and adaptation.
 

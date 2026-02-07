@@ -68,7 +68,7 @@ export default defineConfig({
       { text: 'Stories', link: '/storyviewer/' },
       { text: "Dashboard", link: "/explore" },
       { text: "Other GTIFs", items: [
-        { text: "GTIF Baltic", link: "https://gtif-baltic.info/", target:"_blank" },
+        { text: "GTIF Baltic", link: "https://gtif-baltic.info", target:"_blank" },
         { text: "GTIF Cerulean", link: "https://cif.eox.at", target:"_blank"},
         { text: "GTIF Austria", link: "https://gtif-austria.info", target:"_blank" }
       ]},
