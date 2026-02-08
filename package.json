@@ -8,7 +8,7 @@
     "preview": "vitepress preview"
   },
   "dependencies": {
-    "@eodash/eodash": "^5.5.2",
+    "@eodash/eodash": "https://pkg.pr.new/eodash/eodash/@eodash/eodash@17ca489",
     "@eox/pages-theme-eox": "^1.0.0",
     "@eox/storytelling": "^1.10.0",
     "mustache": "^4.2.0",
