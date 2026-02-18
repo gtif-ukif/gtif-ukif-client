@@ -57,7 +57,7 @@ export default defineConfig({
     ],
   ],
   themeConfig: {
-    logo: { light: "/assets/EOX_Logo_inverse.png", dark: "https://hub-brands.eox.at/eox/EOX_Logo.svg"},
+    logo: { light: "/assets/Green-Meridian_Information-Factory_Logo_Main.svg", dark: "https://hub-brands.eox.at/eox/Green-Meridian_Information-Factory_Logo_Main.svg"},
     theme: {
       primaryColor: "#333333",
       secondaryColor: "#004170",
