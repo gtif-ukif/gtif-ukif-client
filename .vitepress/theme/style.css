@@ -40,3 +40,7 @@ div.grid.large-line > div > p {
   margin-top: 0rem; 
   margin-bottom: 0rem;
 }
+
+img.logo {
+  height: 56px;
+}
