@@ -2,11 +2,11 @@
 layout: page
 footer: false
 ---
-## Welcome to the GTIF landing page for the UK, Ireland and France
+## Welcome to the Green Meridian Information Factory for the UK, Ireland and France
 
 <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; align-items: center;">
   <figure style="padding: 1rem;">
-    <img style="height:80px; width: auto" src="/assets/Green-Meridian_Information-Factory_Logo_Main.svg">
+    <img style="height:90px; width: auto" src="/assets/Green-Meridian_Information-Factory_Logo_Main.svg">
   </figure>  
   <figure style="padding: 1rem;">
     <a target="_blank" href="https://www.ucl.ac.uk/"><img width="150px" style="height:80px" src="/assets/ucl-logo.webp"></a>
