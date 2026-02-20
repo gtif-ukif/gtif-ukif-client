@@ -6,7 +6,7 @@ footer: false
 
 <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; align-items: center;">
   <figure style="padding: 1rem;">
-    <img style="height:90px; width: auto" src="/assets/Green-Meridian_Information-Factory_Logo_Main.svg">
+    <img style="height:120px; width: auto" src="/assets/Green-Meridian_Information-Factory_Logo_Main.svg">
   </figure>  
   <figure style="padding: 1rem;">
     <a target="_blank" href="https://www.ucl.ac.uk/"><img width="150px" style="height:80px" src="/assets/ucl-logo.webp"></a>
