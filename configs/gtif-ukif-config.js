@@ -158,7 +158,7 @@ export default {
               ? {
                   id: "Datepicker",
                   type: "internal",
-                  layout: { x: 4, y: 3, w: 4, h: 9 },
+                  layout: { x: 4, y: 2, w: 4, h: 9 },
                   title: "Date",
                   widget: {
                     name: "EodashDatePicker",
@@ -375,7 +375,7 @@ export default {
               ? {
                   id: "Datepicker",
                   type: "internal",
-                  layout: { x: 4, y: 3, w: 4, h: 9 },
+                  layout: { x: 4, y: 2, w: 4, h: 9 },
                   title: "Date",
                   widget: {
                     name: "EodashDatePicker",
