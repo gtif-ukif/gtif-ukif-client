@@ -3,7 +3,7 @@ import baseConfig from "@eox/pages-theme-eox/config";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  extends: baseConfig('cif'),
+  extends: baseConfig('gtif-ukif'),
   title: "GTIF UKIF Demonstrator",
   description: "GTIF Kickstarter (UK-Ireland-France demonstrator)",
   
