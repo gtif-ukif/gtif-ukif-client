@@ -1,5 +1,6 @@
 import { defineConfig } from "vitepress";
 import baseConfig from "@eox/pages-theme-eox/config";
+import feedbackSchema from "../public/configs/feedback_schema.json";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -61,6 +62,12 @@ export default defineConfig({
     theme: {
       primaryColor: "#333333",
       secondaryColor: "#004170",
+    },
+    feedback: {
+      endpoint:
+        "https://git-issue-creator.gtif-ukif.hub-otc.eox.at/create-issue?repo=github.com/gtif-ukif/feedback",
+      schema: feedbackSchema,
+      position: "bottom-right",
     },
     analytics: null,
     nav: [

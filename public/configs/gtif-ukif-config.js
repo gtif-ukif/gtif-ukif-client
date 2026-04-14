@@ -1,3 +1,6 @@
+const cacheBuster = `?t=${new Date().getTime()}`; // Add a timestamp for cache busting
+const feedbackSchema = await fetch(`/configs/feedback_schema.json${cacheBuster}`).then(res => res.json());
+
 export default {
   id: "gtif-ukif",
   stacEndpoint: "https://gtif-ukif.github.io/gtif-ukif-catalog/gtif-ukif/catalog.json",
@@ -28,6 +31,11 @@ export default {
       ],
     },
     footerText: "GTIF UKIF",
+    feedback: {
+      endpoint:
+        "https://git-issue-creator.gtif-ukif.hub-otc.eox.at/create-issue?repo=github.com/gtif-ukif/feedback",
+      schema: feedbackSchema,
+    },
   },
   templates: {
     expert: {

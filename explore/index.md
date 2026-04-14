@@ -1,5 +1,7 @@
 ---
-layout: false
+layout: page
+footer: false
+feedback: false
 ---
 
 <script setup>
@@ -9,4 +11,16 @@ layout: false
 
 
 <NavBar></NavBar>
-<eo-dash style="display:block;position: fixed;inset: 60px 0 0 0;" :config="withBase(`/configs/gtif-ukif-config.js${cacheBuster}`)"/>
+<eo-dash :config="withBase(`/configs/gtif-ukif-config.js${cacheBuster}`)"/>
+
+<style>
+eo-dash {
+  display: block;
+  height: calc(100dvh - var(--vp-nav-height));
+  width: 100%;
+}
+.VPPage:has(eo-dash) {
+  padding: 0;
+  max-width: unset;
+}
+</style>
