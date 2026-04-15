@@ -1,3 +1,3 @@
-# GTIF UKIF Dashboard
+# GTIF GMif Dashboard
 
-GTIF UKIF client vitepress app
+GTIF GMif client vitepress app
