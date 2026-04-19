@@ -55,7 +55,38 @@ export default {
             zoomToExtent: true,
             btns: {
               enableExportMap: true,
-              enableCompareIndicators: true,
+              enableCompareIndicators: {
+                itemFilterConfig: {
+                  resultType: "list",
+                  imageProperty: "thumbnail",
+                  enableHighlighting: false,
+                  filterProperties: [
+                    {
+                      keys: ["title", "themes"],
+                      title: "Search",
+                      placeholder: "Search by name",
+                      type: "text",
+                      expanded : true
+                    },
+                    {
+                      key: "themes",
+                      title: "Themes",
+                      placeholder: "Filter by theme",
+                      type: "multiselect",
+                      expanded : true
+                    },
+                    {
+                      key: "tags",
+                      title: "Tags",
+                      placeholder: "Filter by tags",
+                      type: "multiselect",
+                      expanded : true
+                    },
+                  ],
+                  subTitleProperty: "subtitle",
+                  aggregateResults: "collection_group",
+                },
+              },
               enableSearch: true,
               enableBackToPOIs: true,
               searchParams: {
@@ -106,7 +137,7 @@ export default {
                   },
                 ],
                 aggregateResults: "collection_group",
-                resultType: "cards",
+                resultType: "list",
                 subTitleProperty: "subtitle",
                 imageProperty: "thumbnail",
                 style: {
@@ -280,11 +311,11 @@ export default {
                   },
                 ],
                 aggregateResults: "collection_group",
-                resultType: "cards",
+                resultType: "list",
                 subTitleProperty: "subtitle",
                 imageProperty: "thumbnail",
                 style: {
-                  "--select-filter-max-items": 8
+                  "--select-filter-max-items": 5
                 },
               },
             },
@@ -328,7 +359,7 @@ export default {
                   },
                 ],
                 aggregateResults: "collection_group",
-                resultType: "cards",
+                resultType: "list",
                 subTitleProperty: "subtitle",
                 imageProperty: "thumbnail",
                 style: {
