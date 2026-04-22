@@ -1,6 +1,7 @@
 # .github/workflows/deploy_docs.yml
 name: Deploy docs for main branch
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
